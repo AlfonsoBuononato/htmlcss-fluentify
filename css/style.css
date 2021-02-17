@@ -142,4 +142,13 @@ section.jumbo-tron{
 
 /* SECTION INTRO */
 
+section.intro{
+    height: 70px;
+    padding: 15px 0;
+    background-color: #d3d3d3;
+    text-align: center;
+}
 
+section.intro h5{
+    color: #818181;
+}
