@@ -28,7 +28,7 @@ a{
 }
 
 p{
-    font-size: xx-small;
+    font-size: small;
 }
 
 h1{
@@ -71,6 +71,7 @@ h1{
 .main-header{
     line-height: 80px;
     background-color: #0d325a;
+    font-size: xx-small;
 }
 
 .container .logo{
@@ -151,4 +152,76 @@ section.intro{
 
 section.intro h5{
     color: #818181;
+}
+
+/* SECTION INFO */
+
+section.info .container{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+section.info .container h4{
+    color: green;
+}
+
+section.info .info-right,
+section.info .info-center,
+section.info .info-left{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.info .info-right .content-right img,
+.info .info-center .content-center img,
+.info .info-left .content-left img{
+    width: 80px;
+    height: 80px;
+}
+
+.info .container hr{
+    display: inline-block;
+    width: 60px;
+    border: 1px solid black;
+    margin: 15px 0;
+}
+
+section.info > hr{
+    width: 97%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+
+/* SECTION PERSONALE */
+
+section.personale .container{
+    color: black;
+}
+
+.container .grafico{
+    width: 50%;
+    text-align: center;
+}
+
+.container .grafico img{
+    width: 270px;
+    height: 270px;
+}
+
+.container .grafico-text{
+    width: 300px;
+}
+
+section.personale a{
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 10px;
+    color: #6893c3;
+    font-size: small;
+}
+
+section.personale p{
+    margin-top: 10px;
 }
