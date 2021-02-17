@@ -69,6 +69,11 @@ h1{
 /* HEADER */
 
 .main-header{
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     line-height: 80px;
     background-color: #0d325a;
     font-size: xx-small;
@@ -165,16 +170,16 @@ section.info .container h4{
     color: green;
 }
 
-section.info .info-right,
+section.info .info-left,
 section.info .info-center,
-section.info .info-left{
+section.info .info-right{
     width: 30%;
     margin-right: 20px;
 }
 
-.info .info-right .content-right img,
+.info .info-left .content-left img,
 .info .info-center .content-center img,
-.info .info-left .content-left img{
+.info .info-right .content-right img{
     width: 80px;
     height: 80px;
 }
@@ -224,4 +229,56 @@ section.personale a{
 
 section.personale p{
     margin-top: 10px;
+}
+
+/* FOOTER */
+
+.main-footer{
+    line-height: 80px;
+    background-color: gray;
+}
+
+.main-footer div.select span{
+    display: inline-block;
+    line-height: 1;
+    border-bottom: 1px solid white;
+    width: 100px;
+}
+
+.main-footer a.btn-big{
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.container .footer-left{
+    width: 50%;
+    text-align-last: center;
+}
+
+.container .footer-right{
+    width: 50%;
+}
+
+.footer-right span{
+    width: 60px;
+}
+
+.container a.btn-small{
+    line-height: 1;
+    position: fixed;
+    bottom: 0;
+    right: 250px;
+    font-size: 15px;
+    background-color: #7cbb01 ;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+
+i{
+    display: inline-block;
+    padding-left: 30px;
+    color: white;
+    width: 10px;
 }
