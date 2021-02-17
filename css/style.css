@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+.container{
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+
+.float-left{
+    float: left;
+}
+
+.clear-fix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a{
+    font-size: xx-small;
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-size: xx-small;
+}
+
+h1{
+    font-size: 32px;
+}
+
+/* UTILITIES BUTTON */
+
+.btn{
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn.btn-green{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #7cbb01;
+
+}
+
+.btn-big{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #7cbb01;
+
+}
+
+/* HEADER */
+
+.main-header{
+    line-height: 80px;
+    background-color: #0d325a;
+}
+
+.container .logo{
+    width: 15%;
+}
+
+.container .logo img{
+    vertical-align: middle;
+}
+
+.main-header a.btn{
+    line-height: 1;
+}
+
+/* NAV CENTER */
+
+.nav-center ul li,
+.nav-right ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container .nav-center{
+    width: 50%;
+}
+
+/* NAV RIGHT */
+
+.container .nav-right{
+    width: 35%;
+}
+
+.nav-right ul li:last-child{
+    margin-right: 0;
+}
+
+/* MAIN */
+
+/* SECTION JUMBO-TRON */
+
+section.jumbo-tron{
+    position: relative;
+    height: 470px;
+    background-color: #0d325a;
+    background-image: url(../img/background-header.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: 115% bottom;
+}
+
+.jumbo-tron .container{
+    height: 100%;
+    position: relative;
+}
+
+.container .title-container{
+    position: absolute;
+    bottom: 150px;
+    left: 0%;
+}
+
+.container .title-container h1{
+    width: 500px;
+}
+
+.jumbo-tron .title-container a.btn-big{
+    margin-top: 20px;
+}
+
+/* SECTION INTRO */
+
+
